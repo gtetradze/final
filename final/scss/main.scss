@@ -1,0 +1,204 @@
+.maincontainer{
+    margin:0 auto;
+    max-width: 1075px;
+    width: 100%;
+}
+/* HEADER STYLES////////// */
+.logo{
+width: 140px;
+
+}
+.header{
+    padding: 30px 0px;
+    
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-li{
+    display: inline-block;
+   padding-left:100px;
+   font-size:14px;
+   font-family:"Playfair display";
+   
+   
+}
+.nav-a{
+    color: #626262;
+}
+
+.banner-img{
+    
+    margin-top:68px;
+    margin-left: 9px;
+}
+
+/* PHOTODIARY STYLES//////////////// */
+
+.diary-article{
+    margin-top:98px;
+    width: 890px;
+    margin-left:80px;
+}
+.diary-h1{
+    padding-top:30px;
+    padding-bottom:40px;
+    font-size: 30px;
+    font-family: "Playfair display";
+    color:#626262
+}
+.diary-p{
+    font-size: 14px;
+    color:#626262;
+    font-family: "Playfair display";
+    line-height: 26px;
+}
+
+.diary-div{
+    margin-top:55px;
+    font-size:14px;
+    font-family: "Ubuntu";
+    opacity: 0.5;
+    width: 100%;
+    
+}
+.diary-span{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    
+    color: #B4AD9E;
+}
+
+/* LIFESTYLE STYLES////////////// */
+.lifestyle-article{
+    height: 478px;
+    width: 420px;
+    padding-bottom:133px;
+}
+.help-div{
+    margin-top:135px;
+    margin-left:80px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.dance-h3{
+    padding-top:30px;
+    padding-bottom:27px;
+    font-size:14px;
+    font-family:"ubuntu";
+    color:#B4AD9E;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.dance-h1{
+    font-size:30px;
+    font-family:"Playfair Display";
+    color:#626262;
+    padding-bottom:35px;
+
+}
+.dance-p{
+    font-size:14px;
+    color:#626262;
+    font-family:"Playfair Display";
+    font-style: 'Regular';
+    line-height: 21px;
+    
+}
+
+/* SIGN-UP SECTION STYLES////////// */
+.signup-section{
+    height: 297px;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+.signup-div{
+    text-align: center;
+    padding-top: 75px;
+    position: relative;
+
+}
+.signup-input{
+    margin-top: 85px;
+    width: 400px;
+    background-color: #F0F0F0;
+    border: none;
+    border-bottom: solid 2px black;
+    padding: 7px;
+}
+.signup-h1{
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color:#333333;
+
+}
+.fly-img{
+    position: absolute;
+    top: 195px;
+    right: 331px;
+}
+
+/* MUSIC SECTION//////////// */
+
+.music-div{
+    margin-top:105px;
+    margin-left:80px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.load-more{
+    border: solid #626262 2px;
+    
+    padding: 16px 30px;
+    
+     
+}
+.load-a{
+    color: #626262;
+    font-family: "Playfair Display"
+}
+.loadmore-div{
+    text-align: center;
+}
+
+/* FOOTER SECTION/////////////// */
+.footer-wrapper{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.social-img{
+    height: 15px;
+}
+.socials-li{
+    display: inline-block;
+    padding-right: 17px;
+   
+}
+.footer{
+    height: 97px;
+    background-color: #F0F0F0;
+    margin-top: 150px;
+    line-height: 100px;
+    font-size: 14px;
+    font-family: "Playfair Display";
+
+}
+.leftblock-a{
+    color: #000000;
+    padding-left: 20px;
+}
+.left-block{
+    margin-left: 43px;
+}
+.right-block{
+    margin-right: 80px;
+}
